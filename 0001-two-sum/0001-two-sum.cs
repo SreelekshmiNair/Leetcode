@@ -5,7 +5,7 @@ public class Solution {
         for(int i=0;i<nums.Length;i++){
            // Console.WriteLine(num);
            int val = target - nums[i];
-           Console.WriteLine(val);
+           //Console.WriteLine(val);
             if(dic.ContainsKey(val)){
                 result[0] = dic[val];
                 result[1] = i ;
