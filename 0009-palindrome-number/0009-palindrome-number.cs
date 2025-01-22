@@ -6,7 +6,6 @@ public class Solution {
            rem=(rem*10) + (res%10);
            res/=10;
        }
-       Console.WriteLine(rem);
-       return rem==x;
+         return rem==x;
     }
 }
