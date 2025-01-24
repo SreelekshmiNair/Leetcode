@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/SreelekshmiNair/Leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/SreelekshmiNair/Leetcode/tree/master/0009-palindrome-number) |
 ## Two Pointers
 |  |
@@ -27,4 +28,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/SreelekshmiNair/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/SreelekshmiNair/Leetcode/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/SreelekshmiNair/Leetcode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
