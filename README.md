@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/SreelekshmiNair/Leetcode/tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/SreelekshmiNair/Leetcode/tree/master/0027-remove-element) |
+| [1646-kth-missing-positive-number](https://github.com/SreelekshmiNair/Leetcode/tree/master/1646-kth-missing-positive-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -44,4 +45,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/SreelekshmiNair/Leetcode/tree/master/0191-number-of-1-bits) |
+## Binary Search
+|  |
+| ------- |
+| [1646-kth-missing-positive-number](https://github.com/SreelekshmiNair/Leetcode/tree/master/1646-kth-missing-positive-number) |
 <!---LeetCode Topics End-->
