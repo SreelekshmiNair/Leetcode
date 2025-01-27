@@ -1,0 +1,25 @@
+Min-Heap: The smallest element has the highest priority (default behavior).
+        Max-Heap: The largest element has the highest priority (by negating the priority).
+        These can be implemented using PriorityQueue
+        In PriorityQueue, minheap by default
+         var minHeap = new PriorityQueue<int, int>();
+         Enqueue elements (priority is the element itself)
+         minHeap.Enqueue(10, 10); first elemtn, then element as its priority
+        FOr maxheap , just chnage priority to -ve value
+         Enqueue elements with negated priorities
+         maxHeap.Enqueue(10, -10);
+        
+        Min-Heap for k-th largest: We insert each element into the min-heap, and if the heap 
+        size exceeds k, we remove the smallest element. After processing all elements, the 
+        root of the heap will be the k-th largest.
+        Max-Heap for k-th smallest: We insert each element into the max-heap, and if the 
+        heap size exceeds k, we remove the largest element. After processing all elements,
+         the root of the heap will be the k-th smallest.
+				 
+				  overall time complexity is: 𝑂(𝑛log𝑘)
+					The PriorityQueue<TElement, TPriority> is implemented as a binary heap internally. The insertion operation into a heap takes O(log m) time, where m is the size of the heap.
+In our case, the heap size will never exceed k because when the heap size exceeds k, we remove the smallest or largest element. So, the insertion into the heap is O(log k).
+We insert n elements into the heap, but since the heap size is capped at k, each insertion operation is O(log k).
+Therefore, for n elements, the total time for all insertions is O(n log k).
+
+        
