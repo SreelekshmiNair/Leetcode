@@ -40,7 +40,7 @@ public class Solution {
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
                 // If the current cell hasn't been visited, perform DFS
-                if(!visited[i,j]&&grid[i][j]!=0){
+                if(grid[i][j]!=0){
                     maxFish = Math.Max(maxFish,DepFs(i,j));// Update max fish collected
                 }
             }
