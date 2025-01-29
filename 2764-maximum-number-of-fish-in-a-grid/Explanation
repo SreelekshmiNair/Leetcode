@@ -1,0 +1,12 @@
+The DepFs function is a recursive helper function that counts the fish in the connected region starting from the cell (x, y).
+It marks cells as visited and sums the number of fish in the current cell, then recursively explores its four neighbors (up, down, left, right).
+It stops when it encounters out-of-bounds cells, already visited cells, or empty cells (grid[x][y] == 0) which are the land cells.
+
+The outer loop iterates through all the grid cells.
+For each unvisited cell that contains fish (grid[i][j] != 0), it starts a DFS to count the fish in the connected region and updates maxFish to track the largest fish count found.
+
+
+Time Complexity:
+O(m * n): Each cell is visited once by DFS.
+Space Complexity:
+O(m * n): For the visited array and the recursion stack.
