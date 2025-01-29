@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/SreelekshmiNair/Leetcode/tree/master/0027-remove-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/SreelekshmiNair/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [1646-kth-missing-positive-number](https://github.com/SreelekshmiNair/Leetcode/tree/master/1646-kth-missing-positive-number) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/SreelekshmiNair/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Hash Table
 |  |
 | ------- |
@@ -63,4 +64,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/SreelekshmiNair/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Depth-First Search
+|  |
+| ------- |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/SreelekshmiNair/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/SreelekshmiNair/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+## Union Find
+|  |
+| ------- |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/SreelekshmiNair/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+## Matrix
+|  |
+| ------- |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/SreelekshmiNair/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 <!---LeetCode Topics End-->
