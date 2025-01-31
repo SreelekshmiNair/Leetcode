@@ -1,0 +1,36 @@
+The logic in the code is about constructing a mask where the mask has the same bit length as num, and each bit is set to 1. The loop should exit when the mask is greater than or equal to num.
+
+Example 1: num = 5
+First iteration:
+
+mask = 1 (binary 0001), num = 5 (binary 0101)
+Condition mask < num → 1 < 5 (true), so we enter the loop.
+Left shift mask: mask = 0001 << 1 → mask = 0010 (which is 2 in decimal).
+OR with 1: mask = 0010 | 0001 → mask = 0011 (which is 3 in decimal).
+Second iteration:
+
+mask = 3 (binary 0011), num = 5 (binary 0101)
+Condition mask < num → 3 < 5 (true), so we enter the loop again.
+Left shift mask: mask = 0011 << 1 → mask = 0110 (which is 6 in decimal).
+OR with 1: mask = 0110 | 0001 → mask = 0111 (which is 7 in decimal).
+
+Now exits out of the llop since 7>num which is 5.
+
+Now, num = 5 (binary 0101) and mask = 7 (binary 0111).
+Performing the XOR operation:
+
+0101 (num)
+ **XOR**
+0111 (mask)
+- - - - - - - - 
+0010 (result)
+
+The result of num ^ mask is 2 (binary 0010).
+
+The final result of the XOR operation is 2 when num = 5 and mask = 7.
+
+Time Complexity: O(log(num)).
+Space Complexity: O(1).
+The loop runs until mask >= num. Since we are left-shifting the mask and OR-ing it with 1, the number of iterations is proportional to the number of bits in num.
+The number of bits in num is approximately log2(num) (because each shift operation reduces the size of the number by half).
+So, the time complexity of the loop is O(log(num)).
