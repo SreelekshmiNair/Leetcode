@@ -1,0 +1,43 @@
+Explanation:
+**Base case:** If root is null, return 0 (this handles the case when the tree is empty).
+**If one of the subtrees (root.left or root.right) is null**, we recursively compute the depth of the non-null subtree and add 1 to account for the current node.
+**If both subtrees are non-null,** compute the minimum depth between the left and right subtrees and add 1 to account for the current node.
+**Time and Space Complexity:**
+Time Complexity: O(N), where N is the number of nodes in the tree. We visit every node exactly once.
+Space Complexity: O(H), where H is the height of the tree. This is due to the recursive call stack. In the worst case (unbalanced tree), the height is O(N), and in the best case (balanced tree), the height is O(log N).
+
+
+
+**Example Tree:**
+
+        1
+       / \
+      2   3
+     / 
+    4  
+Expected Minimum Depth:
+The minimum depth is 2 because the shortest path to a leaf node is through node 1 → node 3.
+Step-by-Step Walkthrough:
+Start at root node (1):
+
+Left subtree is rooted at 2.
+Right subtree is rooted at 3.
+Explore Left Subtree of 1 (Node 2):
+
+The left child of 2 is 4, which is a leaf node (no children).
+The right child of 2 is null.
+So, the depth for node 2 is:
+Left depth (4) = 1 (leaf node).
+Right depth = 0 (because right child is null).
+So, depth of node 2 = 1 + Math.Min(1, 0) = 2.
+Explore Right Subtree of 1 (Node 3):
+
+Node 3 is a leaf node (no children).
+So, depth of node 3 = 1.
+Back to root node 1:
+
+Left depth (2) = 2 (calculated from node 2).
+Right depth (3) = 1 (calculated from node 3).
+So, the minimum depth at root node 1 is:
+1 + Math.Min(2, 1) = 2.
+Thus, the minimum depth of this tree is 2.
