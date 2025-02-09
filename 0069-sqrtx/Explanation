@@ -1,0 +1,26 @@
+If x is 0 or 1, return x immediately since sqrt(0) = 0 and sqrt(1) = 1.
+
+We define the search space: low = 1 and high = x / 2.
+The reason for setting high = x / 2 is that for x >= 4, the square root is always ≤ x / 2, reducing the search space.
+
+Compute mid = low + (high - low) / 2 to prevent overflow.
+Check if mid * mid == x. If true, return mid as the square root.
+If mid * mid < x, move the lower bound low = mid + 1 (since we need a larger value).
+Else, move the upper bound high = mid - 1 (since we need a smaller value).
+Return the Integer Part
+
+When the loop ends, high will be the largest integer such that high * high ≤ x, which is our answer.
+**Time Complexity Analysis**
+The algorithm follows Binary Search, which reduces the search space by half in each iteration.
+
+The initial range of search is [1, x/2], meaning it has at most x/2 elements.
+In each iteration, we cut the range in half.
+This results in a logarithmic number of iterations:
+
+**O(logx)**
+Thus, the time complexity is O(log x).
+
+**Space Complexity Analysis**
+We use only a few integer variables (low, high, mid), which require O(1) space.
+No extra data structures are used.
+Thus, the space complexity is O(1).
