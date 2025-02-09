@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/SreelekshmiNair/Leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/SreelekshmiNair/Leetcode/tree/master/0009-palindrome-number) |
+| [0069-sqrtx](https://github.com/SreelekshmiNair/Leetcode/tree/master/0069-sqrtx) |
 ## Two Pointers
 |  |
 | ------- |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/SreelekshmiNair/Leetcode/tree/master/0069-sqrtx) |
 | [1646-kth-missing-positive-number](https://github.com/SreelekshmiNair/Leetcode/tree/master/1646-kth-missing-positive-number) |
 ## Sorting
 |  |
